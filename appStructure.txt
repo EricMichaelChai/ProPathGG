@@ -1,0 +1,17 @@
+•src
++--•app
+    +--•Common  - Might not need this since only need the environment to use API key/Endpoint
+        |--ConstantsEnums
+        |--Interfaces
+        |--Champions
+    +--•DataAccess - Where setup the API calls needed for the project
+        |--riotAPIs.service
+    +--•BusinessLogic - Will manipulate the data we are given from the APIs to turn into our own useful entities
+        |--proPath.Core
+    +--•ViewModel
+        |--proPath.Entities 
+            |--Entity1
+            |--Entity2
+        |--proPath.ViewModel
+    +--•UI
+        |--homePage.ts|.html|.css
