@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { RiotAPIService } from '../app/DataAccess/riot-api.service';
-
+import { TftItemsCore } from '../app/BusinessLogic/tft-items.core.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +16,7 @@ import { RiotAPIService } from '../app/DataAccess/riot-api.service';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [RiotAPIService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
